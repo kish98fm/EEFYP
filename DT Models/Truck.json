@@ -1,0 +1,19 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:Truck;1",
+    "@type": "Interface",
+    "displayName": "Truck",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "capacity",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "currentLoad",
+        "schema": "double"
+      }
+    ]
+  }
+  

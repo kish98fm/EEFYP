@@ -1,0 +1,25 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:Machine;1",
+    "@type": "Interface",
+    "displayName": "Machine",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "productionRate",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "energyConsumption",
+        "schema": "double"
+      },
+      {
+        "@type": "Relationship",
+        "name": "feedsToContainer",
+        "target": "dtmi:example:Container;1",
+        "displayName": "Feeds To Container"
+      }
+    ]
+  }
+  
