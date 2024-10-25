@@ -1,0 +1,38 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:example:Factory1;1",
+    "@type": "Interface",
+    "displayName": "Factory 1",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "productionRate",
+        "schema": "double",
+        "displayName": "machine_1"
+      },
+      {
+        "@type": "Property",
+        "name": "currentStorage",
+        "schema": "double",
+        "displayName": "export_warehouse_1"
+      },
+      {
+        "@type": "Component",
+        "name": "lorry_1",
+        "schema": {
+          "@type": "Object",
+          "fields": [
+            {
+              "name": "lorry_1_capacity",
+              "schema": "double"
+            },
+            {
+              "name": "lorry_1_delay",
+              "schema": "double"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

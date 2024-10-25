@@ -1,0 +1,15 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:factory2:lorry1_capacity;1",
+    "@type": "Interface",
+    "displayName": "Lorry 1 Capacity",
+    "description": "Tracks the capacity of Lorry 1",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "lorry_1_capacity",
+        "schema": "double"
+      }
+    ]
+  }
+  

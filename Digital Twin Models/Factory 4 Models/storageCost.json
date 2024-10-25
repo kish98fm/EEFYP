@@ -1,0 +1,14 @@
+{
+    "@id": "dtmi:factory1:storageCost;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "displayName": "storageCost",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Cost",
+        "schema": "double"
+      }
+    ]
+  }
+  

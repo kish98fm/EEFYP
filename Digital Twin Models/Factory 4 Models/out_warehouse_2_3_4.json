@@ -1,0 +1,14 @@
+{
+    "@id": "dtmi:factory4:out_warehouse_2_3_4;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "displayName": "out_warehouse_2_3_4",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "currentStorage",
+        "schema": "double"
+      }
+    ]
+  }
+  

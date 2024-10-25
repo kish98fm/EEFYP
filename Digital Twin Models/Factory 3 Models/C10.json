@@ -1,0 +1,20 @@
+{
+    "@id": "dtmi:factory3:export_warehouse_2_3;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "displayName": "export_warehouse_2_3",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "currentStorage",
+        "schema": "double"
+      },
+      {
+        "@type": "Relationship",
+        "name": "sendsToLorry4",
+        "target": "dtmi:factory3:lorry_2_3;1",
+        "displayName": "C10 sends to Lorry 4"
+      }
+    ]
+  }
+  

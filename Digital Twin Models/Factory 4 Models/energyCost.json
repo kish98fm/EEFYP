@@ -1,0 +1,14 @@
+{
+    "@id": "dtmi:factory1:energyCost;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "displayName": "energyCost",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "Cost",
+        "schema": "double"
+      }
+    ]
+  }
+  

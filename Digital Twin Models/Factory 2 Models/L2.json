@@ -1,0 +1,19 @@
+{
+    "@id": "dtmi:factory2:lorry_2;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "displayName": "lorry_2",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "lorry_2_capacity",
+        "schema": "double"
+      },
+      {
+        "@type": "Property",
+        "name": "lorry_2_delay",
+        "schema": "double"
+      }
+    ]
+  }
+  

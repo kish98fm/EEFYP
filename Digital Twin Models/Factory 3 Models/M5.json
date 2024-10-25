@@ -1,0 +1,25 @@
+{
+  "@id": "dtmi:factory3:machine_2_3;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "machine_2_3",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "productionRate",
+      "schema": "double"
+    },
+    {
+      "@type": "Relationship",
+      "name": "receivesFromC6",
+      "target": "dtmi:factory3:import_warehouse_2;1",
+      "displayName": "M5 receives from import_warehouse_2"
+    },
+    {
+      "@type": "Relationship",
+      "name": "sendsToC10",
+      "target": "dtmi:factory3:export_warehouse_2_3;1",
+      "displayName": "M5 sends to export_warehouse_2_3"
+    }
+  ]
+}

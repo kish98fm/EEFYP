@@ -1,0 +1,15 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:factory2:lorry1_delay;1",
+    "@type": "Interface",
+    "displayName": "Lorry 1 Delay",
+    "description": "Tracks the delay of Lorry 1",
+    "contents": [
+      {
+        "@type": "Telemetry",
+        "name": "lorry_1_delay",
+        "schema": "double"
+      }
+    ]
+  }
+  

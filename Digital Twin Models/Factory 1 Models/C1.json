@@ -1,0 +1,19 @@
+{
+  "@id": "dtmi:factory1:export_warehouse_1;1",
+  "@type": "Interface",
+  "@context": "dtmi:dtdl:context;2",
+  "displayName": "export_warehouse_1",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "storageCapacity",
+      "schema": "double"
+    },
+    {
+      "@type": "Relationship",
+      "name": "sendsToLorry",
+      "target": "dtmi:factory1:lorry_1;1",
+      "displayName": "export_warehouse_1 sends to lorry_1"
+    }
+  ]
+}

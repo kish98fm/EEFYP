@@ -1,0 +1,20 @@
+{
+    "@id": "dtmi:factory4:machine_2_3_4;1",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "displayName": "machine_2_3_4",
+    "contents": [
+      {
+        "@type": "Property",
+        "name": "productionRate",
+        "schema": "double"
+      },
+      {
+        "@type": "Relationship",
+        "name": "sendsToCOut234",
+        "target": "dtmi:factory4:out_warehouse_2_3_4;1",
+        "displayName": "M8 sends to out_warehouse_2_3_4"
+      }
+    ]
+  }
+  
